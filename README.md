@@ -1,0 +1,2 @@
+# medicurtec
+medical news blog
