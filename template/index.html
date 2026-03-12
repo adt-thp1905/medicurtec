@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Medicurtec</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h1>Medicurtec - Medicine Updates</h1>
+
+<a href="/add">Post New Update</a>
+
+<hr>
+
+{% for update in updates %}
+<div class="post">
+<h2>{{update['title']}}</h2>
+<p>{{update['content']}}</p>
+</div>
+{% endfor %}
+
+</body>
+</html>
